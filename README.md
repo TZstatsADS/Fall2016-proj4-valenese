@@ -10,7 +10,7 @@ Term: Fall 2016
 + [Data description](doc/readme.html)
 + Contributor's name: Ran Li
 + Projec title: Predict the Most Likely Words in a Given Song
-+ Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ Project summary: The main idea for this project is that different styles or topics of songs may lead to different styles of lyrics. The words appear in lyrics may have some patterns within a certain topic. Thus, we may classify the songs into different topics accordign to the lyrics patterns. Since lyrics are created in human languages,   
 	
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
