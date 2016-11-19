@@ -10,7 +10,8 @@ Term: Fall 2016
 + [Data description](doc/readme.html)
 + Contributor's name: Ran Li
 + Projec title: Predict the Most Likely Words in a Given Song
-+ Project summary: The main idea for this project is that different styles or topics of songs may lead to different styles of lyrics. 
++ Project summary:
++ The main idea for this project is that different styles or topics of songs may lead to different styles of lyrics. 
 
 + Since the final goal for this project is use the features of music to predict a possible combination of words in its lyric. The relationship between lyric and music features should be established. A regression model between music features and lyrics may be a possible approach. In the design of regression, topics is a possible outcome while the predictors are music styles.
 + The words appear in lyrics may have some patterns within a certain topic. Thus, we may classify the songs into different topics according to the lyrics patterns. Since lyrics are created in human languages, text mining methods need to be applied in finding the patterns between lyrics. Topic models are applied in this study as text mining method. Linear discriminant analysis is applied as classification methods to classify different topics. 20 topics are selected after tuning and each topic has a “bag of word”. For each song, any word appears in the “bag” of certain topic will be recorded as 1. For example, for song1, if the value of topic1 is 15, that means the words of song1 lyric appear 15 times in topic 1. After fitting the topic model, each song will have a counts list for 20 topics. For a song counts high frequency in a certain topic, the “theme” of this song is likely to be in related with the words in the “bag” of this topic.
